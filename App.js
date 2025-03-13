@@ -34,7 +34,7 @@ function MyNavigation() {
       screenOptions={{
         tabBarInactiveTintColor: "rgb(253, 175, 224)",
         tabBarActiveTintColor: "rgb(140, 51, 146)",
-        tabBarStyle: { backgroundColor: "white" },
+        tabBarStyle: { backgroundColor: 'white', height: 60 },
       }}
     >
       <BotaoRodape.Screen

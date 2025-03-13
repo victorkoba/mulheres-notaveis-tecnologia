@@ -13,9 +13,6 @@ const ProfileCard = () => {
         <Text style={styles.info}>Nascimento: 1º de janeiro de 1951, Portsmouth, Virgínia, EUA.</Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Morte: </Text>
-      </View>
-      <View style={styles.infoBox}>
         <Text style={styles.info}>Onde viveu: Cresceu nos EUA nos anos 1950 e 1960, uma época em que a computação ainda estava emergindo e era dominada por homens. Desde jovem, demonstrou interesse por matemática e ciência, mas enfrentou desafios como a falta de incentivo para mulheres em tecnologia. </Text>
       </View>
       <View style={styles.infoBox}>

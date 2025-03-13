@@ -8,12 +8,9 @@ const ProfileCard = () => {
         source={{ uri: 'https://www.cfemea.org.br/images/Mulheres_Negras/sonia-guimaraes2.jpeg' }}
         style={styles.image}
       />
-      <Text style={styles.name}>Sonia Guimaraes</Text>
+      <Text style={styles.name}>Sônia Guimarães</Text>
       <View style={styles.infoBox}>
         <Text style={styles.info}>Nascimento: 1957, Brotas, São Paulo, Brasil.</Text>
-      </View>
-      <View style={styles.infoBox}>
-        <Text style={styles.info}>Morte: </Text>
       </View>
       <View style={styles.infoBox}>
         <Text style={styles.info}>Onde viveu: Cresceu em um Brasil onde a presença de mulheres, especialmente negras, na ciência era praticamente inexistente. Durante a Ditadura Militar (1964-1985), o acesso à educação era desafiador, e a falta de políticas de inclusão tornava o ambiente acadêmico ainda mais elitista. </Text>

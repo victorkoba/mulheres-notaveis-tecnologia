@@ -13,9 +13,6 @@ const ProfileCard = () => {
         <Text style={styles.info}>Nascimento: 17 de agosto de 1936, Paoli, Indiana, EUA.</Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Morte: </Text>
-      </View>
-      <View style={styles.infoBox}>
         <Text style={styles.info}>Onde viveu: Cresceu durante a Segunda Guerra Mundial e iniciou sua carreira no auge da Corrida Espacial entre os EUA e a União Soviética. O período era marcado por forte discriminação contra mulheres em ciência e tecnologia, mas Hamilton conseguiu espaço na área de engenharia de software. </Text>
       </View>
       <View style={styles.infoBox}>
