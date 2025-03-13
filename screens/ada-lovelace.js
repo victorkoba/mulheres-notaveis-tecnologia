@@ -63,6 +63,7 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     alignItems: 'center',
     paddingVertical: 20,
+    backgroundColor: 'rgb(140, 51, 146)',
   },
 });
 
