@@ -10,7 +10,7 @@ const ProfileCard = () => {
       />
       <Text style={styles.name}>Grace Hopper</Text>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Nascimento: 9 de dezembro de 1906, Nova York, EUA.. </Text>
+        <Text style={styles.info}>Nascimento: 9 de dezembro de 1906, Nova York, EUA.</Text>
       </View>
       <View style={styles.infoBox}>
         <Text style={styles.info}>Morte: 1º de janeiro de 1992, Arlington, Virgínia, EUA. </Text>

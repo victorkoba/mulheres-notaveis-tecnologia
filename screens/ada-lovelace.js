@@ -10,7 +10,7 @@ const ProfileCard = () => {
       />
       <Text style={styles.name}>Ada Lovelace</Text>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Nascimento: 10 de dezembro de 1815, Londres, Inglaterra. </Text>
+        <Text style={styles.info}>Nascimento: 10 de dezembro de 1815, Londres, Inglaterra.</Text>
       </View>
       <View style={styles.infoBox}>
         <Text style={styles.info}>Morte: 27 de novembro de 1852, Londres, Inglaterra.</Text>

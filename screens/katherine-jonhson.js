@@ -10,7 +10,7 @@ const ProfileCard = () => {
       />
       <Text style={styles.name}>Katherine Jonhson</Text>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Nascimento: 26 de agosto de 1918, White Sulphur Springs, Virgínia Ocidental, EUA.. </Text>
+        <Text style={styles.info}>Nascimento: 26 de agosto de 1918, White Sulphur Springs, Virgínia Ocidental, EUA.</Text>
       </View>
       <View style={styles.infoBox}>
         <Text style={styles.info}>Morte: 24 de fevereiro de 2020, Newport News, Virgínia, EUA. </Text>

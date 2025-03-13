@@ -10,7 +10,7 @@ const ProfileCard = () => {
       />
       <Text style={styles.name}>Radia Perlman</Text>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Nascimento: 1º de janeiro de 1951, Portsmouth, Virgínia, EUA.. </Text>
+        <Text style={styles.info}>Nascimento: 1º de janeiro de 1951, Portsmouth, Virgínia, EUA.</Text>
       </View>
       <View style={styles.infoBox}>
         <Text style={styles.info}>Morte: </Text>

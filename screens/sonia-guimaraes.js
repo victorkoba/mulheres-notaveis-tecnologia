@@ -10,7 +10,7 @@ const ProfileCard = () => {
       />
       <Text style={styles.name}>Sonia Guimaraes</Text>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Nascimento: 1957, Brotas, São Paulo, Brasil.. </Text>
+        <Text style={styles.info}>Nascimento: 1957, Brotas, São Paulo, Brasil.</Text>
       </View>
       <View style={styles.infoBox}>
         <Text style={styles.info}>Morte: </Text>

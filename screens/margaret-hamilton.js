@@ -10,7 +10,7 @@ const ProfileCard = () => {
       />
       <Text style={styles.name}>Margaret Hamilton</Text>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Nascimento: 17 de agosto de 1936, Paoli, Indiana, EUA. </Text>
+        <Text style={styles.info}>Nascimento: 17 de agosto de 1936, Paoli, Indiana, EUA.</Text>
       </View>
       <View style={styles.infoBox}>
         <Text style={styles.info}>Morte: </Text>
