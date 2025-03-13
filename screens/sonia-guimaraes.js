@@ -10,19 +10,19 @@ const ProfileCard = () => {
       />
       <Text style={styles.name}>Sonia Guimaraes</Text>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Nascimento: 1</Text>
+        <Text style={styles.info}>Nascimento: 1957, Brotas, São Paulo, Brasil. </Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Morte: </Text>
+        <Text style={styles.info}>Morte: ATRASADA</Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Onde viveu: </Text>
+        <Text style={styles.info}>Onde viveu: Cresceu em um Brasil onde a presença de mulheres, especialmente negras, na ciência era praticamente inexistente. Durante a Ditadura Militar (1964-1985), o acesso à educação era desafiador, e a falta de políticas de inclusão tornava o ambiente acadêmico ainda mais elitista. </Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Formação acadêmica: </Text>
+        <Text style={styles.info}>Formação acadêmica: Doutorado em Física pela Universidade de Manchester, na Inglaterra. </Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Relevância e contribuição: </Text>
+        <Text style={styles.info}>Relevância e contribuição:  Primeira mulher negra a se tornar doutora em Física no Brasil. Professora no ITA (Instituto Tecnológico de Aeronáutica), atua na inclusão de mulheres e negros na ciência e pesquisa áreas como semicondutores e sensores infravermelhos. Tornou-se uma referência na luta por diversidade na academia e nas ciências exatas, inspirando novas gerações. </Text>
       </View>
     </View>
   );
