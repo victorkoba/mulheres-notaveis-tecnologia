@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     padding: 20,
-    backgroundColor: 'linear-gradient(180deg, #4b0082, #ff69b4)',
     flex: 1,
+    backgroundColor: 'linear-gradient(180deg,rgb(221, 67, 245),rgb(255, 85, 198))',
   },
   image: {
     width: 100,
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 10,
-    color: '#d63384',
+    color: '#FFCCE6',
   },
   infoBox: {
     backgroundColor: '#ffcce6',
@@ -63,6 +63,7 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     alignItems: 'center',
     paddingVertical: 20,
+    backgroundColor: 'rgb(140, 51, 146)',
   },
 });
 
