@@ -1,30 +1,30 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
 
 const ProfileCard = () => {
   return (
-    <View style={styles.container}>
+<ScrollView contentContainerStyle={styles.scrollContainer}>
       <Image
-        source={{ uri: 'https://web-assets.esetstatic.com/wls/2017/10/ada_lovelace.jpeg' }}
+        source={{ uri: 'https://www3.unicentro.br/petfisica/wp-content/uploads/sites/54/2019/09/Katherine-Johnson-e1677346372131.jpg' }}
         style={styles.image}
       />
       <Text style={styles.name}>Katherine Jonhson</Text>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Nascimento:1</Text>
+        <Text style={styles.info}>Nascimento: 26 de agosto de 1918, White Sulphur Springs, Virgínia Ocidental, EUA.</Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Morte: </Text>
+        <Text style={styles.info}>Morte: 24 de fevereiro de 2020, Newport News, Virgínia, EUA. </Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Onde viveu: </Text>
+        <Text style={styles.info}>Onde viveu: Durante o período da segregação racial nos EUA, que limitava o acesso de pessoas negras à educação e oportunidades profissionais. Apesar das barreiras, Katherine demonstrou talento em matemática desde cedo e superou os obstáculos raciais e de gênero na NASA.</Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Formação acadêmica: </Text>
+        <Text style={styles.info}>Formação acadêmica: Graduada em Matemática e francês pela Universidade Estadual da Virgínia Ocidental, uma das poucas universidades que aceitavam estudantes negros na época.</Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Relevância e contribuição: </Text>
+        <Text style={styles.info}>Relevância e contribuição: Trabalhou na NASA realizando cálculos fundamentais para missões espaciais, incluindo o voo de John Glenn, que pediu especificamente para que ela verificasse os cálculos do computador antes de seu lançamento. Sua história foi popularizada pelo filme Estrelas Além do Tempo, que destacou a importância de mulheres negras na exploração espacial. </Text>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 
@@ -58,6 +58,11 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#800040',
     textAlign: 'center',
+  },
+  scrollContainer: {
+    flexGrow: 1,
+    alignItems: 'center',
+    paddingVertical: 20,
   },
 });
 

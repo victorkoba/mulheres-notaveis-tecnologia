@@ -1,9 +1,9 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
 
 const ProfileCard = () => {
   return (
-    <View style={styles.container}>
+<ScrollView contentContainerStyle={styles.scrollContainer}>
       <Image
         source={{ uri: 'https://web-assets.esetstatic.com/wls/2017/10/ada_lovelace.jpeg' }}
         style={styles.image}
@@ -24,7 +24,7 @@ const ProfileCard = () => {
       <View style={styles.infoBox}>
         <Text style={styles.info}>Relevância e contribuição: Trabalhou com Charles Babbage no desenvolvimento da Máquina Analítica, um precursor dos computadores modernos. Em suas anotações, criou um algoritmo considerado o primeiro programa de computador da história. Também previu que máquinas poderiam processar não apenas números, mas música e imagens, antecipando conceitos da computação moderna. Seu trabalho foi redescoberto no século XX e a consagrou como a primeira programadora da história.</Text>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 20,
     flex: 1,
+    backgroundColor: 'linear-gradient(180deg,rgb(221, 67, 245),rgb(255, 85, 198))',
   },
   image: {
     width: 100,
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 10,
-    color: '#d63384',
+    color: '#FFCCE6',
   },
   infoBox: {
     backgroundColor: '#ffcce6',
@@ -57,6 +58,11 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#800040',
     textAlign: 'center',
+  },
+  scrollContainer: {
+    flexGrow: 1,
+    alignItems: 'center',
+    paddingVertical: 20,
   },
 });
 
