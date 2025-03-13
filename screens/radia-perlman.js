@@ -1,11 +1,11 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
 
 const ProfileCard = () => {
   return (
-    <View style={styles.container}>
+<ScrollView contentContainerStyle={styles.scrollContainer}>
       <Image
-        source={{ uri: 'https://web-assets.esetstatic.com/wls/2017/10/ada_lovelace.jpeg' }}
+        source={{ uri: 'https://www.internethalloffame.org/wp-content/uploads/2014/03/radia_perlman.jpg' }}
         style={styles.image}
       />
       <Text style={styles.name}>Radia Perlman</Text>
@@ -13,7 +13,7 @@ const ProfileCard = () => {
         <Text style={styles.info}>Nascimento: 1º de janeiro de 1951, Portsmouth, Virgínia, EUA. </Text>
       </View>
       <View style={styles.infoBox}>
-        <Text style={styles.info}>Morte: ATRASADA</Text>
+        <Text style={styles.info}>Morte: </Text>
       </View>
       <View style={styles.infoBox}>
         <Text style={styles.info}>Onde viveu: Cresceu nos EUA nos anos 1950 e 1960, uma época em que a computação ainda estava emergindo e era dominada por homens. Desde jovem, demonstrou interesse por matemática e ciência, mas enfrentou desafios como a falta de incentivo para mulheres em tecnologia. </Text>
@@ -24,7 +24,7 @@ const ProfileCard = () => {
       <View style={styles.infoBox}>
         <Text style={styles.info}>Relevância e contribuição: Criou o protocolo Spanning Tree (STP), que permitiu a escalabilidade das redes Ethernet e foi fundamental para a infraestrutura da internet moderna. Embora sua invenção tenha sido crucial, por muito tempo ela não recebeu o reconhecimento merecido, algo comum para mulheres na área da computação. Além disso, contribuiu para o desenvolvimento de protocolos de segurança e confiabilidade na comunicação digital.</Text>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 
@@ -59,6 +59,13 @@ const styles = StyleSheet.create({
     color: '#800040',
     textAlign: 'center',
   },
+  scrollContainer: {
+    flexGrow: 1,
+    alignItems: 'center',
+    paddingVertical: 20,
+  },
 });
 
 export default ProfileCard;
+
+  

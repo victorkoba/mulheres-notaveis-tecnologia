@@ -1,11 +1,11 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
 
 const ProfileCard = () => {
   return (
-    <View style={styles.container}>
+<ScrollView contentContainerStyle={styles.scrollContainer}>
       <Image
-        source={{ uri: 'https://web-assets.esetstatic.com/wls/2017/10/ada_lovelace.jpeg' }}
+        source={{ uri: 'https://www3.unicentro.br/petfisica/wp-content/uploads/sites/54/2019/09/Katherine-Johnson-e1677346372131.jpg' }}
         style={styles.image}
       />
       <Text style={styles.name}>Katherine Jonhson</Text>
@@ -24,7 +24,7 @@ const ProfileCard = () => {
       <View style={styles.infoBox}>
         <Text style={styles.info}>Relevância e contribuição: Trabalhou na NASA realizando cálculos fundamentais para missões espaciais, incluindo o voo de John Glenn, que pediu especificamente para que ela verificasse os cálculos do computador antes de seu lançamento. Sua história foi popularizada pelo filme Estrelas Além do Tempo, que destacou a importância de mulheres negras na exploração espacial. </Text>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 
@@ -58,6 +58,11 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#800040',
     textAlign: 'center',
+  },
+  scrollContainer: {
+    flexGrow: 1,
+    alignItems: 'center',
+    paddingVertical: 20,
   },
 });
 
