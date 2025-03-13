@@ -27,7 +27,7 @@ const BotaoRodape = createBottomTabNavigator();
 function MyNavigation() {
   return (
     <BotaoRodape.Navigator initialRouteName='PaginaInicial' screenOptions={{tabBarActiveTintColor: '#000'}}>
-      <BotaoRodape.Screen name="PaginaInicial" component={PaginaInicial} options={{tabBarLabel: 'Página Inicial', headerShown: false }}/>
+      <BotaoRodape.Screen name="PaginaInicial" component={PaginaInicial} options={{tabBarLabel: 'Página Inicial', headerShown: false}}/>
       <BotaoRodape.Screen name="AdaLovelace" component={AdaLovelace} options={{tabBarLabel: 'Ada Lovelace', headerShown: false }}/>
       <BotaoRodape.Screen name="GraceHopper" component={GraceHopper} options={{tabBarLabel: 'Grace Hopper', headerShown: false }}/>
       <BotaoRodape.Screen name="KatherineJonhson" component={KatherineJonhson} options={{tabBarLabel: 'Katherine Jonhson', headerShown: false }}/>
